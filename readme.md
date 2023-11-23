@@ -1,5 +1,9 @@
 # Laravel Support Ticket System
 
+[![Total Downloads](http://poser.pugx.org/shaz3e/support-ticket/downloads)](https://packagist.org/packages/shaz3e/support-ticket)
+[![Latest Stable Version](http://poser.pugx.org/shaz3e/support-ticket/v)](https://packagist.org/packages/shaz3e/support-ticket)
+[![License](http://poser.pugx.org/shaz3e/support-ticket/license)](https://packagist.org/packages/shaz3e/support-ticket)
+
 ### Install Support Ticket
 ```bash
 composer require shaz3e/support-ticket
