@@ -1,5 +1,10 @@
 # Laravel Support Ticket System
 
+### Install Support Ticket
+```bash
+composer require shaz3e/support-ticket
+```
+
 ### Add service provider
 ```bash
 Shaz3e\SupportTicket\Providers\SupportTicketServiceProvider::class,
