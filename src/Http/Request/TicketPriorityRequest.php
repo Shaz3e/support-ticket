@@ -23,7 +23,7 @@ class TicketPriorityRequest extends FormRequest
      */
     public function rules(): array
     {
-        $id = $this->route('id'); // Replace 'your_model_id' with the actual key used in your route
+        $id = $this->route('ticket-priority');
         return [
             'name' => 'required|max:100|unique:support_ticket_priorities,name,' . $id . ',id',
             'status' => 'required|boolean',

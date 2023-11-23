@@ -23,7 +23,8 @@ class TicketStatusRequest extends FormRequest
      */
     public function rules(): array
     {
-        $id = $this->route('id'); // Replace 'your_model_id' with the actual key used in your route
+        $id = $this->route('ticket_status');
+                
         return [
             'name' => 'required|max:100|unique:support_ticket_statuses,name,' . $id . ',id',
             'slug' => 'required|max:100|regex:/^[a-zA-Z0-9-]+$/|unique:support_ticket_statuses,slug,' . $id . ',id',
