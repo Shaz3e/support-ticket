@@ -6,7 +6,7 @@
 
 ### Install Support Ticket
 ```bash
-composer require shaz3e/support-ticket
+composer require shaz3e/support-ticket:dev-main
 ```
 
 ### Add service provider

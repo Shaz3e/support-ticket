@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Shaz3e\\SupportTicket\\SupportTicketServiceProvider"
+                "Shaz3e\\SupportTicket\\Providers\\SupportTicketServiceProvider"
             ]
         }
     }
