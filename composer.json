@@ -1,0 +1,30 @@
+{
+    "name": "shaz3e/support-ticket",
+    "description": "Customer Support Ticket System",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shaz3e\\SupportTicket\\": "src/"
+        },
+        "files": [
+            "src/Helpers/SupportTicket.php",
+            "src/Helpers/SupportTicketReply.php",
+            "src/Helpers/SupportTicketPriority.php",
+            "src/Helpers/SupportTicketStatus.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Shahrukh A. Khan",
+            "email": "iam@shaz3e.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shaz3e\\SupportTicket\\SupportTicketServiceProvider"
+            ]
+        }
+    }
+}
