@@ -19,11 +19,8 @@
             "email": "iam@shaz3e.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-        "shaz3e/support-ticket": "dev-main"
-    },
+    "minimum-stability": "stable",
+    "require": {},
     "extra": {
         "laravel": {
             "providers": [
