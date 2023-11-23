@@ -21,9 +21,7 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "shaz3e/support-ticket": "dev-main"
-    },
+    "require": {},
     "extra": {
         "laravel": {
             "providers": [
