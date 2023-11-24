@@ -24,7 +24,7 @@ class SupportTicketServiceProvider extends ServiceProvider
    public function boot()
    {
       /**
-       * Console Commads
+       * Console Commands
        */
       if ($this->app->runningInConsole()) {
 
